@@ -13,6 +13,8 @@ router.get('/notsolditem/:month',salesController.notsolditem)
 
 router.get('/uniquecategories/:month',salesController.uniquecategories)
 
+router.get('/barchart/:month',salesController.barchart)
+
 
 
 module.exports = router
